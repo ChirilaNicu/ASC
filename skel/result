@@ -1,0 +1,114 @@
+Starting test 1
+Traceback (most recent call last):
+  File "test.py", line 12, in <module>
+    from tema.producer import Producer
+  File "/mnt/e/Anul 3/ASC/asc/assignments/1-marketplace/skel/tema/producer.py", line 48
+    while True:
+    ^
+IndentationError: unexpected indent
+TIMEOUT. Test 1 exceeded maximum allowed time of 30
+Finished test 1
+Test 1:		FAILED
+Starting test 2
+Traceback (most recent call last):
+  File "test.py", line 12, in <module>
+    from tema.producer import Producer
+  File "/mnt/e/Anul 3/ASC/asc/assignments/1-marketplace/skel/tema/producer.py", line 48
+    while True:
+    ^
+IndentationError: unexpected indent
+TIMEOUT. Test 2 exceeded maximum allowed time of 30
+Finished test 2
+Test 2:		FAILED
+Starting test 3
+Traceback (most recent call last):
+  File "test.py", line 12, in <module>
+    from tema.producer import Producer
+  File "/mnt/e/Anul 3/ASC/asc/assignments/1-marketplace/skel/tema/producer.py", line 48
+    while True:
+    ^
+IndentationError: unexpected indent
+TIMEOUT. Test 3 exceeded maximum allowed time of 30
+Finished test 3
+Test 3:		FAILED
+Starting test 4
+Traceback (most recent call last):
+  File "test.py", line 12, in <module>
+    from tema.producer import Producer
+  File "/mnt/e/Anul 3/ASC/asc/assignments/1-marketplace/skel/tema/producer.py", line 48
+    while True:
+    ^
+IndentationError: unexpected indent
+TIMEOUT. Test 4 exceeded maximum allowed time of 30
+Finished test 4
+Test 4:		FAILED
+Starting test 5
+Traceback (most recent call last):
+  File "test.py", line 12, in <module>
+    from tema.producer import Producer
+  File "/mnt/e/Anul 3/ASC/asc/assignments/1-marketplace/skel/tema/producer.py", line 48
+    while True:
+    ^
+IndentationError: unexpected indent
+TIMEOUT. Test 5 exceeded maximum allowed time of 30
+Finished test 5
+Test 5:		FAILED
+Starting test 6
+Traceback (most recent call last):
+  File "test.py", line 12, in <module>
+    from tema.producer import Producer
+  File "/mnt/e/Anul 3/ASC/asc/assignments/1-marketplace/skel/tema/producer.py", line 48
+    while True:
+    ^
+IndentationError: unexpected indent
+TIMEOUT. Test 6 exceeded maximum allowed time of 30
+Finished test 6
+Test 6:		FAILED
+Starting test 7
+Traceback (most recent call last):
+  File "test.py", line 12, in <module>
+    from tema.producer import Producer
+  File "/mnt/e/Anul 3/ASC/asc/assignments/1-marketplace/skel/tema/producer.py", line 48
+    while True:
+    ^
+IndentationError: unexpected indent
+TIMEOUT. Test 7 exceeded maximum allowed time of 30
+Finished test 7
+Test 7:		FAILED
+Starting test 8
+Traceback (most recent call last):
+  File "test.py", line 12, in <module>
+    from tema.producer import Producer
+  File "/mnt/e/Anul 3/ASC/asc/assignments/1-marketplace/skel/tema/producer.py", line 48
+    while True:
+    ^
+IndentationError: unexpected indent
+TIMEOUT. Test 8 exceeded maximum allowed time of 30
+Finished test 8
+Test 8:		FAILED
+Starting test 9
+Traceback (most recent call last):
+  File "test.py", line 12, in <module>
+    from tema.producer import Producer
+  File "/mnt/e/Anul 3/ASC/asc/assignments/1-marketplace/skel/tema/producer.py", line 48
+    while True:
+    ^
+IndentationError: unexpected indent
+TIMEOUT. Test 9 exceeded maximum allowed time of 60
+Finished test 9
+Test 9:		FAILED
+Starting test 10
+Traceback (most recent call last):
+  File "test.py", line 12, in <module>
+    from tema.producer import Producer
+  File "/mnt/e/Anul 3/ASC/asc/assignments/1-marketplace/skel/tema/producer.py", line 48
+    while True:
+    ^
+IndentationError: unexpected indent
+TIMEOUT. Test 10 exceeded maximum allowed time of 60
+Finished test 10
+Test 10:		FAILED
+
+Run pylint
+
+/usr/bin/python3: No module named pylint

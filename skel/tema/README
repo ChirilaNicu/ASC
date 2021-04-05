@@ -1,0 +1,45 @@
+###############################################################################
+Nume-> Chirila Nicu
+Grupa-> 331CB
+Tema-> Tema1 ASC
+Timp->20h
+###############################################################################
+ Aceasta tema reprezinsta o aplicare a problemei MPMC(multiProducer-multiConsu-
+mer).
+ Threadul Producer:
+Acesta creeaza produse care urmeaza sa fie publicate in margazin,totusi cand
+magazinul si-a atins limita acesta nu le mai poate publica pana cand alte
+produse nu sunt cumparate.Conditii: daca magazinul accepta un produs,acesta
+asteapta o perioda de timp specificata in lista de produse, altfel acesta
+asteapta un timp acordat threadului cand a fost creat.
+
+ Threadul Consumer:
+Creeaza carucioare in magazin,la care adauga si elimina produse.Cand consumato-
+-rul si-a terminat "treaba" acesta poate sa-si plaseze comanda si sa cumpere
+produsele respective.Conditii: la fel ca la producator si acesta are conditii
+de asteptare in functie de rezultatul operatiilor realizate.
+
+ Main Thread Marketplace:
+Aceasta ofera o modalitate de comunicare pentru producator si consumator,
+intr-un singur loc, in magazin. Magazinul: 
+-stocheaza o lista cu toti producatorii si produsele lor pastrand evidente
+pentru fiecare dintre produsele realizate de producatorul lor.
+-detine carucioare pentru fiecare consumator, unde acesta poate adauga si
+elimina produse.
+-pentru a tine cont de limita maxima de produse/producator pe piata in
+acelasi timp, numarul acestora este pastrat intr-o lista. Ea poate fi
+modificata la publish(),add_to_cart() si remove_from_cart().
+-inainte ca consumatorul sa obtina lista produselor comandate,acestea
+sunt tiparite.
+
+###############################################################################
+Tema mi s-a parut interesanta, asemanatoare cu laburile(trb sa urmam
+instructiunile din skelet si nu ne prea putem abate de la ele)
+
+Un alt lucru interesant mi s-a parut faptul ca tema a venit in acelasi moment,
+cand urmez un curs de python de la HackAcademy si am avut un laborator
+foarte asemanator cu aceasta tema.
+Ex:
+https://drive.google.com/file/d/1UiCZhSA4Dme4MKpNB4hYeQ-nJciOnQVp/view?usp=
+sharing
+###############################################################################
